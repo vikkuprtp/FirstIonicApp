@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>RecyclicPort</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-list>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src=" ">
+    </ion-avatar>
+    <ion-label>
+     <h1>Vikrant pratap</h1> 
+     <p>Earned Sum:28L</p>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+
+<app-pickup-call-card [hasHeader]="true" [hasFooter]="true"></app-pickup-call-card>
+
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button color="success">
+    <ion-icon name="add"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+</ion-content>
